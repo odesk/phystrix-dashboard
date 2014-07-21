@@ -1,0 +1,13 @@
+{
+    "name": "odesk/phystrix-dashboard",
+    "description": "Hystrix dashboard support for Phystrix",
+    "license": "Apache-2.0",
+    "keywords": ["odesk", "phystrix", "dashboard"],
+    "autoload": {
+        "psr-0": {"Odesk\\": "src/"}
+    },
+    "require": {
+        "php": ">=5.3.3",
+        "odesk/phystrix": "1.*"
+    }
+}
