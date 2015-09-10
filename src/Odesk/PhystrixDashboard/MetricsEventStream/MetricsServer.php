@@ -61,10 +61,10 @@ class MetricsServer
             $stats = $this->metricsPoller->getStatsForCommandsRunning();
 
             if (empty($stats)) {
-                echo "ping: \n";
+                echo "ping: \n\n";
             } else {
                 foreach ($stats as $commandStats) {
-                    echo "data: " . json_encode($commandStats) . "\n";
+                    echo "data: " . json_encode($commandStats) . "\n\n";
                 }
             }
 
