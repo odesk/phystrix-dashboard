@@ -70,7 +70,7 @@ class MetricsServer
 
             ob_flush();
             flush();
-            usleep($this->delay * 1000);
+            time_nanosleep(0, $this->delay * 1000);
         }
     }
 }
