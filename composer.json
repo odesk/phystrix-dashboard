@@ -8,6 +8,6 @@
     },
     "require": {
         "php": ">=5.3.3",
-        "odesk/phystrix": "1.*"
+        "odesk/phystrix": ">=1.* <=2.*"
     }
 }
